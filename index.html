@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>cake shop</title>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Cake Shop</h1>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6" id="flavor-col">
+      <label for="flavor">Pick flavor:</label>
+      <select class="form-control" id="flavor">
+        <option value="1">Chocolate</option>
+        <option value="2">Vanilla</option>
+        <option value="3">Almond</option>
+        <option value="4">Lemon</option>
+      </select>
+      <br>
+      <label for="frosting">Select Frosting:</label>
+      <select class="form-control" id="frosting">
+        <option value="1">Chocolate</option>
+        <option value="2">Vanilla</option>
+        <option value="3">Almond</option>
+        <option value="4">Lemon</option>
+        <option value="4">None</option>
+      </select>
+      <button id="order-btn" type="submit" class="btn">Submit</button>
+    </div>
+
+    <div class="col-md-6">
+        <img id="choc" src="img/choc.jpeg" alt="a chocolate cupcake">
+    </div>
+
+
+    <div class="col-md-6" id="address-col">
+      <form id="details">
+        <div class="form-group">
+          <label for="firstName">First Name:</label>
+          <input id="firstName" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="lastName">Last Name:</label>
+          <input id="lastName" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="address">Address:</label>
+          <input id="address" class="form-control" type="text">
+        </div>
+      </form>
+
+    </div>
+  </div>
+</body>
+</html>

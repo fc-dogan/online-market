@@ -1,0 +1,14 @@
+.jumbotron {
+  background-color: rgb(238, 176, 176);
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#choc {
+  display: none;
+}
+
+#address-col {
+  display: none;
+}
