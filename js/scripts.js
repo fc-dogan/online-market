@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $("#order-btn").click(function(){
+  $("#order-btn").click.(function(){
     $("#flavor-col").hide();
     $("#choc").show();
     $("#address-col").show();
@@ -19,3 +19,15 @@ $(document).ready(function(){
     event.preventDefault();
   });
 });
+
+
+
+function flavor_get() {
+  var val = document.getElementById("flavor").value;
+  if (val === "1") {
+    alert("chocolate");
+  }
+  else {
+    alert("not chocolate");
+  }
+}
